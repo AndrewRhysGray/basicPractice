@@ -49,14 +49,20 @@ let x = 5;
 let y = 10;
 
 function weatherMan(arg) {
-if (x < 0 && x < 15) {
+if (arg > 0 && arg < 15) {
 console.log("both conditions are true");
 }
 else { console.log("somethings wrong");
 }
 }
 
-weatherMan(5)
+weatherMan(13)
+
+// let dog = "happy"
+// let cat = "sad"
+
+// let animalCentre(arg)
+// if (dog)
 
 
 
