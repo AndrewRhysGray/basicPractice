@@ -82,27 +82,39 @@
 
 // Write if-else statements to handle different conditions.
 // Implement switch-case statements for multiple conditional branches.
-let day = "Thursday";
+// let day = "Thursday";
 
-switch (day) {
-    case "Monday":
-        console.log("it's the start of the week")
-        break;
+// switch (day) {
+//     case "Monday":
+//         console.log("it's the start of the week")
+//         break;
 
-        case "Wednesday": 
-            console.log("It's the middle of the week")
-            break
+//         case "Wednesday": 
+//             console.log("It's the middle of the week")
+//             break
         
 
-        case "Friday": 
-            console.log("It's the end of the week")
-            break;
+//         case "Friday": 
+//             console.log("It's the end of the week")
+//             break;
 
-        default:
-             console.log("unimportant day of the week")
-        }
+//         default:
+//              console.log("unimportant day of the week")
+//         }
         
 // Practice using loops (for, while) to iterate over arrays or perform repetitive tasks.
+// For loop example
+// console.log("For loop:");
+// for (let i = 0; i < 5; i++) {
+//     console.log("Iteration", i);
+// }
+
+// console.log("For loop");
+// for (let i = 0; i < 5; i++) {
+//     console.log("iteration", "i")
+// }
+
+
 // Functions:
 
 // Define functions with and without parameters.
