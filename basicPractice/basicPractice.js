@@ -45,24 +45,32 @@
 // Experiment with logical operators (&&, ||, !) to form complex conditions.
 // Control Flow:
 
-let x = 5;
-let y = 10;
+// let x = 5;
+// let y = 10;
+// && test
+// function weatherMan(arg) {
+// if (arg > 0 && arg < 15) {
+// console.log("both conditions are true");
+// }
+// else { console.log("somethings wrong");
+// }
+// }
 
-function weatherMan(arg) {
-if (arg > 0 && arg < 15) {
-console.log("both conditions are true");
+// weatherMan(13)
+
+let raining = true;
+if (!raining) {
+    console.log("it's not raining")
 }
-else { console.log("somethings wrong");
-}
-}
 
-weatherMan(13)
+console.log(raining)
 
-// let dog = "happy"
-// let cat = "sad"
 
-// let animalCentre(arg)
-// if (dog)
+
+
+
+
+
 
 
 
