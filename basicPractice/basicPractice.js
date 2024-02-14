@@ -1,11 +1,11 @@
 // Variables and Data Types:
 
 // Declare variables of different data types (string, number, boolean).
-let name = "andrew";
-let number = 1;
-let number5 = 5;
-let country = "UK"
-let happy = true;
+// let name = "andrew";
+// let number = 1;
+// let number5 = 5;
+// let country = "UK"
+// let happy = true;
 
 // console.log(name, number, happy);
 
@@ -21,27 +21,47 @@ let happy = true;
 
 // Create expressions using arithmetic operators (+, -, *, /, %).
 // Use comparison operators (==, ===, !=, !==, <, >, <=, >=) in conditional statements.
-function dataCheck(number) {
-    if (number === 1) {
-        console.log("correct");
-    } 
-    else if (number === 3) {
-        console.log("ok that's allowed");
-    }
-    else {
-        console.log("INCORRECT");
-    }
-}
+// function dataCheck(number) {
+//     if (number === 1) {
+//         console.log("correct");
+//     } 
+//     else if (number === 3) {
+//         console.log("ok that's allowed");
+//     }
+//     else {
+//         console.log("INCORRECT");
+//     }
+// }
 
 
 
 
 
 
-dataCheck(3);
+
+
+// dataCheck(3);
 
 // Experiment with logical operators (&&, ||, !) to form complex conditions.
 // Control Flow:
+
+let x = 5;
+let y = 10;
+
+function weatherMan(arg) {
+if (x < 0 && x < 15) {
+console.log("both conditions are true");
+}
+else { console.log("somethings wrong");
+}
+}
+
+weatherMan(5)
+
+
+
+
+
 
 // Write if-else statements to handle different conditions.
 // Implement switch-case statements for multiple conditional branches.
