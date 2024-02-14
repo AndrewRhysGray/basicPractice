@@ -114,6 +114,19 @@
 //     console.log("iteration", "i")
 // }
 
+// While loop example
+console.log("\nWhile loop ")
+let j = 0;
+while (j < 5) {
+    console.log("interation")
+j++
+}
+
+
+// }
+
+console.log()
+
 
 // Functions:
 
