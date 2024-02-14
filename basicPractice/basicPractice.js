@@ -57,13 +57,16 @@
 // }
 
 // weatherMan(13)
+// let windy = false
+// let raining = true;
+// if (!raining && windy) {
+//     console.log("it's calm") 
+//  } else { 
+//             console.log("it's hectic")
+//         }
+    
 
-let raining = true;
-if (!raining) {
-    console.log("it's not raining")
-}
-
-console.log(raining)
+// console.log(raining)
 
 
 
@@ -79,6 +82,26 @@ console.log(raining)
 
 // Write if-else statements to handle different conditions.
 // Implement switch-case statements for multiple conditional branches.
+let day = "Thursday";
+
+switch (day) {
+    case "Monday":
+        console.log("it's the start of the week")
+        break;
+
+        case "Wednesday": 
+            console.log("It's the middle of the week")
+            break
+        
+
+        case "Friday": 
+            console.log("It's the end of the week")
+            break;
+
+        default:
+             console.log("unimportant day of the week")
+        }
+        
 // Practice using loops (for, while) to iterate over arrays or perform repetitive tasks.
 // Functions:
 
