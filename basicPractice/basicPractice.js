@@ -36,18 +36,70 @@
 
 // Create expressions using arithmetic operators (+, -, *, /, %).
 // Use comparison operators (==, ===, !=, !==, <, >, <=, >=) in conditional statements.
-function dataCheck(number) {
-    if (number === 3) {
-        console.log("well done lad")
-    } else if (number)
-(number > 10) {
-console.log("whew laaaad over ten")
-} else {
-    console.log("not happening")
-}
-}
+// function dataCheck(number) {
+//     if (number === 3) {
+//         return "well done lad";
+//     } else if (number > 10) {
+// return "whew laaaad over ten";
+// } else {
+//     return "not happening";
+// }
+// }
 
-dataCheck(4)
+// console.log(dataCheck(5))
+
+// function dataCheck(number) {
+//     if (number === 3) {
+//         return "well done lad";
+//     } else if (number > 10) {
+//         return "whew laaaad over ten";
+//     } else {
+//         return "not happening";
+//     }
+// }
+
+// console.log(dataCheck(5));
+
+// function dataCheck(number) {
+//     if (number === 3) {
+//         return "well done lad";
+//     } else if (number > 10) {
+//         return "whew laaaad over ten";
+//     } else {
+//         return "not happening";
+//     }
+// }
+
+// console.log(dataCheck(5));
+
+//15/02/2024
+// function dataCheck(number) {
+//     if (number === 3) {
+//         return "well done lad";
+//     } else if (number > 10) {
+//         return "whew laaaad over ten";
+//     } else {
+//         return "not happening";
+//     }
+// }
+
+// console.log(dataCheck(5));
+
+
+
+
+    // function dataCheck(number) {
+    //     if (number === 3) {
+    //         return "well done lad";
+    //     } else if (number > 10) {
+    //         return "whew laaaad over ten";
+    //     } else {
+    //         return "not happening";
+    //     }
+    // }
+    
+
+
 
 
 
@@ -191,14 +243,14 @@ dataCheck(4)
 
 // Arrays:
 
-let dataThings = [1, 2, 3, 4, 5];
+// let dataThings = [1, 2, 3, 4, 5];
 
-function returner() {
-    let result = dataThings.map(item => item * 2)
-    return result = dataThings.sqrt
-}
+// function returner() {
+//     let result = dataThings.map(item => item * 2)
+//     return result = dataThings.sqrt
+// }
 
-console.log(returner())
+// console.log(returner())
 
 
 
@@ -217,3 +269,17 @@ console.log(returner())
 // Write a program that checks if a given year is a leap year.
 // Create a function that reverses a string without using built-in methods.
 // Develop a small application that generates a random password based on user preferences.
+
+//15/02/2024
+
+function numberChecker(number) {
+    if (number > 0) {
+        return "positive";
+    } else if (number < 0) {
+        return "negative";
+    } else {
+        return "zero";
+    }
+}
+
+console.log(numberChecker(-1))
