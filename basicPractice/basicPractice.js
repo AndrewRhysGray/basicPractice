@@ -32,6 +32,29 @@
 //         console.log("INCORRECT");
 //     }
 // }
+// practice more part 2 15/02/2024
+
+// Create expressions using arithmetic operators (+, -, *, /, %).
+// Use comparison operators (==, ===, !=, !==, <, >, <=, >=) in conditional statements.
+function dataCheck(number) {
+    if (number === 3) {
+        console.log("well done lad")
+    } else if (number)
+(number > 10) {
+console.log("whew laaaad over ten")
+} else {
+    console.log("not happening")
+}
+}
+
+dataCheck(4)
+
+
+
+
+
+
+
 
 
 
@@ -64,7 +87,7 @@
 //  } else { 
 //             console.log("it's hectic")
 //         }
-    
+
 
 // console.log(raining)
 
@@ -92,7 +115,7 @@
 //         case "Wednesday": 
 //             console.log("It's the middle of the week")
 //             break
-        
+
 
 //         case "Friday": 
 //             console.log("It's the end of the week")
@@ -101,7 +124,7 @@
 //         default:
 //              console.log("unimportant day of the week")
 //         }
-        
+
 // Practice using loops (for, while) to iterate over arrays or perform repetitive tasks.
 // For loop example
 // console.log("For loop:");
@@ -169,14 +192,13 @@
 // Arrays:
 
 let dataThings = [1, 2, 3, 4, 5];
-let result = 2;
 
-function returner(){
-let result = dataThings * 2
-return result
+function returner() {
+    let result = dataThings.map(item => item * 2)
+    return result = dataThings.sqrt
 }
 
-console.log(result)
+console.log(returner())
 
 
 
