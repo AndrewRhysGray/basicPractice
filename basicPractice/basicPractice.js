@@ -115,25 +115,42 @@
 // }
 
 // While loop example
-console.log("\nWhile loop ")
-let j = 0;
-while (j < 5) {
-    console.log("interation")
-j++
-}
+// console.log("\nWhile loop ")
+// let j = 0;
+// while (j < 5) {
+//     console.log("interation")
+// j++
+// }
 
 
 // }
 
-console.log()
+// console.log()
 
 
 // Functions:
 
 // Define functions with and without parameters.
+
 // Return values from functions and store them in variables.
+
+// const x = 5;
+// const y = 10;
+// const z = 20;
+
+// function dataThing() {
+//     z = x * y
+// console.log(z)
+// }
+
+// dataThing()
+
+
+
+
 // Create higher-order functions that accept other functions as arguments.
 // Arrays:
+
 
 // Declare and initialize arrays with different types of elements.
 // Access elements by index and modify array contents.
