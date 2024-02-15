@@ -134,9 +134,9 @@
 
 // Return values from functions and store them in variables.
 
-// const x = 5;
-// const y = 10;
-// const z = 20;
+// let x = 5;
+// let y = 10;
+// let z = 20;
 
 // function dataThing() {
 //     z = x * y
@@ -149,7 +149,36 @@
 
 
 // Create higher-order functions that accept other functions as arguments.
+
+// let x = 5;
+// let y = 10;
+// let z = 20;
+
+// function dataThing() {
+//     return z
+// }
+
+// function dataMegaThing (callBack) {
+// let t = x * y * callBack()
+// return t
+// }
+
+// let result = dataMegaThing(dataThing)
+// console.log(result)
+
 // Arrays:
+
+let dataThings = [1, 2, 3, 4, 5];
+let result = 2;
+
+function returner(){
+let result = dataThings * 2
+return result
+}
+
+console.log(result)
+
+
 
 
 // Declare and initialize arrays with different types of elements.
